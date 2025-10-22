@@ -41,7 +41,7 @@ echo -e "${NC}"
 PROJECT_DIR="${PROJECT_DIR:-$HOME/talking-photo-frame}"
 
 # Check if we're in the project directory
-if [ -f "Master_fixed.py" ]; then
+if [ -f "Master.py" ]; then
     PROJECT_DIR=$(pwd)
     print_info "Using current directory: $PROJECT_DIR"
 elif [ -d "$PROJECT_DIR" ]; then
@@ -91,7 +91,7 @@ print_success "env2 found"
 
 # Check required scripts
 print_info "Checking required scripts..."
-REQUIRED_SCRIPTS=("S2T_fixed.py" "NLP_fixed.py" "T2S_fixed.py" "Master_fixed.py")
+REQUIRED_SCRIPTS=("S2T.py" "NLP.py" "T2S.py" "Master.py")
 for script in "${REQUIRED_SCRIPTS[@]}"; do
     if [ ! -f "$script" ]; then
         print_error "$script not found!"
@@ -169,14 +169,14 @@ case $choice in
         print_info "Press Ctrl+C to force stop"
         echo
         sleep 2
-        python3 Master_fixed.py
+        python3 Master.py
         ;;
     2)
         print_info "Testing Speech-to-Text..."
         print_info "Speak in Telugu when prompted"
         echo
         source env1/bin/activate
-        python3 S2T_fixed.py
+        python3 S2T.py
         deactivate
         ;;
     3)
@@ -185,7 +185,7 @@ case $choice in
         test_text=${test_text:-"Hello, this is a test"}
         echo
         source env1/bin/activate
-        python3 T2S_fixed.py "$test_text"
+        python3 T2S.py "$test_text"
         deactivate
         ;;
     4)
@@ -194,7 +194,7 @@ case $choice in
         test_prompt=${test_prompt:-"How are you today?"}
         echo
         source env2/bin/activate
-        python3 NLP_fixed.py "$test_prompt"
+        python3 NLP.py "$test_prompt"
         deactivate
         ;;
     5)
