@@ -1,6 +1,6 @@
 #!/bin/bash
 # Talking Photo Frame V1.0 - Quick Start Script
-# This script helps you get TPF running quickly
+# This script helps you get TPF running quickly 
 
 set -e  # Exit on error
 
