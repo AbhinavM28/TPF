@@ -25,10 +25,9 @@ sudo apt-get install -y \
     python3-venv \
     python3-pip
 
-# Create project directory
-PROJECT_DIR="$HOME/talking-photo-frame"
-echo "Creating project directory at $PROJECT_DIR"
-mkdir -p "$PROJECT_DIR"
+# Get current working directory
+PROJECT_DIR=$(pwd)
+echo "Assigning project directory to current working directory: $PROJECT_DIR"
 cd "$PROJECT_DIR"
 
 # Create env1
@@ -61,8 +60,8 @@ echo "1. Copy your Python scripts to $PROJECT_DIR"
 echo "2. Copy your video file (MDay.mp4) to $PROJECT_DIR"
 echo "3. Set your OpenAI API key:"
 echo "   export OPENAI_API_KEY='your-key-here'"
-echo "4. Update paths in Master_fixed.py"
-echo "5. Run: python3 Master_fixed.py"
+echo "4. Update paths in Master.py"
+echo "5. Run: python3 Master.py"
 echo
 
 # Test microphone

@@ -9,6 +9,11 @@ import sys
 import json
 from datetime import datetime
 
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+env1_path = os.path.join(SCRIPT_DIR, "env1")
+env2_path = os.path.join(SCRIPT_DIR, "env2")
+video_path = os.path.join(SCRIPT_DIR, "MDay.mp4")
+
 class TalkingPhotoFrame:
     def __init__(self, env1_path, env2_path, video_path="MDay.mp4"):
         self.env1_path = env1_path
@@ -216,20 +221,18 @@ def main():
         print("export OPENAI_API_KEY='your-api-key-here'")
         print()
     
-    # Define virtual environment paths (adjust these to your setup)
-    env1_path = os.path.expanduser("~/talking-photo-frame/env1")
-    env2_path = os.path.expanduser("~/talking-photo-frame/env2")
-    video_path = os.path.expanduser("~/talking-photo-frame/MDay.mp4")
+    # Use the paths defined at the top of the file
+    # (already calculated as SCRIPT_DIR relative paths)
     
     # Check if paths exist
     if not os.path.exists(env1_path):
         print(f"ERROR: env1 not found at {env1_path}")
-        print("Please update the paths in the script")
+        print("Please create virtual environments in the script directory")
         sys.exit(1)
     
     if not os.path.exists(env2_path):
         print(f"ERROR: env2 not found at {env2_path}")
-        print("Please update the paths in the script")
+        print("Please create virtual environments in the script directory")
         sys.exit(1)
     
     # Create and run the talking photo frame
