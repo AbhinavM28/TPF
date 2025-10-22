@@ -1,0 +1,8 @@
+# For Speech-to-Text and Text-to-Speech
+# Install in env1
+
+SpeechRecognition==3.10.0
+PyAudio==0.2.13
+googletrans==4.0.0rc1
+gtts==2.3.2
+pygame==2.5.2

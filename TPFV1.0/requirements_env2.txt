@@ -1,0 +1,4 @@
+# For Natural Language Processing (OpenAI)
+# Install in env2
+
+openai==1.3.0
