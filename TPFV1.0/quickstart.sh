@@ -146,16 +146,16 @@ read -p "Enter microphone device index (default: 2): " mic_index
 mic_index=${mic_index:-2}
 print_info "Using microphone index: $mic_index"
 
-# Update S2T_fixed.py with correct device index if needed
+# Update S2T.py with correct device index if needed
 if [ "$mic_index" != "2" ]; then
-    print_info "Updating S2T_fixed.py with device index $mic_index"
-    sed -i "s/device_index=2/device_index=$mic_index/g" S2T_fixed.py
+    print_info "Updating S2T_.py with device index $mic_index"
+    sed -i "s/device_index=2/device_index=$mic_index/g" S2T.py
 fi
 
 # Run mode selection
 echo
 echo "Select mode:"
-echo "  1) Run full system (Master_fixed.py)"
+echo "  1) Run full system (Master.py)"
 echo "  2) Test Speech-to-Text only"
 echo "  3) Test Text-to-Speech only"
 echo "  4) Test NLP only"
