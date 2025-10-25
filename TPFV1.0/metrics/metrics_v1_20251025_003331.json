@@ -1,0 +1,96 @@
+{
+  "session_start": "2025-10-25T00:26:05.761132",
+  "interactions": [
+    {
+      "iteration": 0,
+      "timestamp": "2025-10-25T00:26:06.765265",
+      "s2t_latency": 11.214936971664429,
+      "user_input": "hi how are you",
+      "nlp_latency": 5.950600862503052,
+      "response": "I am good beta, how are you my gold?",
+      "t2s_latency": 7.382877826690674,
+      "total_latency": 24.54857873916626
+    },
+    {
+      "iteration": 1,
+      "timestamp": "2025-10-25T00:27:09.179062",
+      "s2t_latency": 7.796895265579224,
+      "user_input": "how are you",
+      "nlp_latency": 15.124212741851807,
+      "response": "I am good my gold, how are you my diamond?",
+      "t2s_latency": 7.542720794677734,
+      "total_latency": 30.46428394317627
+    },
+    {
+      "iteration": 2,
+      "timestamp": "2025-10-25T00:28:29.254091",
+      "s2t_latency": 23.6324405670166,
+      "user_input": "i miss you",
+      "nlp_latency": 7.734594821929932,
+      "response": "I miss you too my gold. Don't worry, i am in a happy space and I will always be watching over you.",
+      "t2s_latency": 0.0020987987518310547,
+      "total_latency": 31.369457960128784
+    },
+    {
+      "iteration": 3,
+      "timestamp": "2025-10-25T00:29:01.124506",
+      "s2t_latency": 25.55651307106018,
+      "user_input": "i miss you",
+      "nlp_latency": 6.648677825927734,
+      "response": "I miss you too my gold. Don't worry, I am in a happy place and I will always watch over you. Don't be sad, I will always love you and cheer for you from up in the sky.",
+      "t2s_latency": 23.27341628074646,
+      "total_latency": 55.47890377044678
+    },
+    {
+      "iteration": 4,
+      "timestamp": "2025-10-25T00:30:05.182478",
+      "s2t_latency": 8.421546459197998,
+      "user_input": "ok boy",
+      "nlp_latency": 3.709423065185547,
+      "response": "Beta, never forget that I am always here for you, no matter what. I love you more than anything in this world.",
+      "t2s_latency": 14.65262484550476,
+      "total_latency": 26.78377056121826
+    },
+    {
+      "iteration": 5,
+      "timestamp": "2025-10-25T00:30:46.470313",
+      "s2t_latency": 7.607919454574585,
+      "user_input": "Dubai",
+      "nlp_latency": 6.280660390853882,
+      "response": "Dubai is a beautiful city in the United Arab Emirates, known for its modern architecture, luxurious shopping, and vibrant nightlife. It has tall skyscrapers, stunning beaches, and lots of fun activities to enjoy. I hope you get to visit Dubai someday and experience all its wonders.",
+      "t2s_latency": 30.028106451034546,
+      "total_latency": 43.91693568229675
+    },
+    {
+      "iteration": 6,
+      "timestamp": "2025-10-25T00:31:30.887694",
+      "s2t_latency": 10.69635820388794,
+      "user_input": "good boy",
+      "nlp_latency": 4.739361047744751,
+      "response": "He is a good boy.",
+      "t2s_latency": 4.452949285507202,
+      "total_latency": 19.888801336288452
+    },
+    {
+      "iteration": 7,
+      "timestamp": "2025-10-25T00:31:51.277709",
+      "s2t_latency": 8.417489528656006,
+      "user_input": "boy",
+      "nlp_latency": 12.723568439483643,
+      "response": "You are my strong boy and I'm very proud of you!",
+      "t2s_latency": 0.0031251907348632812,
+      "total_latency": 21.144311666488647
+    },
+    {
+      "iteration": 8,
+      "timestamp": "2025-10-25T00:32:12.922341",
+      "s2t_latency": 25.654505968093872,
+      "user_input": "good boy",
+      "nlp_latency": 3.9201102256774902,
+      "response": "He is a good boy, my love!",
+      "t2s_latency": 5.9361326694488525,
+      "total_latency": 35.510926246643066
+    }
+  ],
+  "session_end": "2025-10-25T00:33:31.588139"
+}

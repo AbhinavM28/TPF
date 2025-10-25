@@ -1,0 +1,16 @@
+{
+  "session_start": "2025-10-24T18:50:49.421940",
+  "interactions": [
+    {
+      "iteration": 0,
+      "timestamp": "2025-10-24T18:50:57.797981",
+      "s2t_latency": 17.766731023788452,
+      "user_input": "Hello cast",
+      "nlp_latency": 30.01422953605652,
+      "response": "I didn't quite catch that, dear.",
+      "t2s_latency": 0.004670381546020508,
+      "total_latency": 47.78581500053406
+    }
+  ],
+  "session_end": "2025-10-24T18:51:57.131473"
+}
