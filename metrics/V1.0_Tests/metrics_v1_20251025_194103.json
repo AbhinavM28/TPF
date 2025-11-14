@@ -1,0 +1,16 @@
+{
+  "session_start": "2025-10-25T19:40:27.266179",
+  "interactions": [
+    {
+      "iteration": 0,
+      "timestamp": "2025-10-25T19:40:28.269458",
+      "s2t_latency": 10.111106634140015,
+      "user_input": "hello how are you",
+      "nlp_latency": 9.123512744903564,
+      "response": "I am good my gold, how are you my diamond?",
+      "t2s_latency": 8.266353845596313,
+      "total_latency": 27.501250505447388
+    }
+  ],
+  "session_end": "2025-10-25T19:41:03.408224"
+}

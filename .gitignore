@@ -1,0 +1,23 @@
+# Virtual environments
+env1/
+env2/
+venv/
+__pycache__/
+
+# API keys and secrets
+.env
+*.key
+*api_key*
+
+# Large files
+*.mp4
+*.wav
+*.mp3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

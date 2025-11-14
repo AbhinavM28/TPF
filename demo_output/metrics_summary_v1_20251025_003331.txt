@@ -1,0 +1,133 @@
+============================================================
+TALKING PHOTO FRAME V1.0 - PERFORMANCE METRICS REPORT
+============================================================
+
+Session Start: 2025-10-25T00:26:05.761132
+Session End: 2025-10-25T00:33:31.588139
+
+============================================================
+SYSTEM METRICS
+============================================================
+Session Duration: 445.83 seconds
+Total Interactions: 9
+Interactions/Minute: 1.21
+Avg Time/Interaction: 49.54 seconds
+
+============================================================
+LATENCY METRICS (seconds)
+============================================================
+
+S2T:
+  Mean:   14.333s
+  Median: 10.696s
+  Min:    7.608s
+  Max:    25.655s
+  StdDev: 8.074s
+
+NLP:
+  Mean:   7.426s
+  Median: 6.281s
+  Min:    3.709s
+  Max:    15.124s
+  StdDev: 3.950s
+
+T2S:
+  Mean:   10.364s
+  Median: 7.383s
+  Min:    0.002s
+  Max:    30.028s
+  StdDev: 10.355s
+
+TOTAL:
+  Mean:   32.123s
+  Median: 30.464s
+  Min:    19.889s
+  Max:    55.479s
+  StdDev: 11.486s
+
+============================================================
+QUALITY METRICS
+============================================================
+Success Rate: 100.0%
+Successful Interactions: 9/9
+Avg Input Length: 8 characters
+Avg Response Length: 92 characters
+
+============================================================
+LATENCY BREAKDOWN (% of total time)
+============================================================
+Speech-to-Text: 44.6%
+NLP Processing: 23.1%
+Text-to-Speech: 32.3%
+
+============================================================
+PERFORMANCE RATING
+============================================================
+
+Latency Rating:
+  ✗ POOR - Significant latency issues
+
+Reliability Rating:
+  ✓ EXCELLENT - Very reliable
+
+Bottleneck Analysis:
+  ⚠ BOTTLENECK: Speech recognition
+    → Recommendation: Use local Whisper model for V2.0
+  ⚠ BOTTLENECK: Text-to-speech
+    → Recommendation: Optimize with local TTS + voice cloning
+
+Recommendations for V2.0:
+  1. Implement local LLM (Ollama) to eliminate API latency
+  2. Use Whisper for faster local speech recognition
+  3. Add voice cloning for authentic grandmother voice
+  4. Implement face animation for dynamic visuals
+  5. Optimize ambient noise handling for better recognition
+
+============================================================
+DETAILED INTERACTION LOG
+============================================================
+
+Interaction 1:
+  User: hi how are you
+  Response: I am good beta, how are you my gold?
+  Total Latency: 24.55s
+
+Interaction 2:
+  User: how are you
+  Response: I am good my gold, how are you my diamond?
+  Total Latency: 30.46s
+
+Interaction 3:
+  User: i miss you
+  Response: I miss you too my gold. Don't worry, i am in a happy space and I will always be watching over you.
+  Total Latency: 31.37s
+
+Interaction 4:
+  User: i miss you
+  Response: I miss you too my gold. Don't worry, I am in a happy place and I will always watch over you. Don't be sad, I will always love you and cheer for you from up in the sky.
+  Total Latency: 55.48s
+
+Interaction 5:
+  User: ok boy [Meant to say "Good Bye" which is the exit command]
+  Response: Beta, never forget that I am always here for you, no matter what. I love you more than anything in this world.
+  Total Latency: 26.78s
+
+Interaction 6:
+  User: Dubai [Meant to say "Good Bye" which is the exit command]
+  Response: Dubai is a beautiful city in the United Arab Emirates, known for its modern architecture, luxurious shopping, and vibrant nightlife. It has tall skyscrapers, stunning beaches, and lots of fun activities to enjoy. I hope you get to visit Dubai someday and experience all its wonders.
+  Total Latency: 43.92s
+
+Interaction 7:
+  User: good boy [Meant to say "Good Bye" which is the exit command]
+  Response: He is a good boy.
+  Total Latency: 19.89s
+
+Interaction 8:
+  User: boy [Meant to say "Bye" which is the exit command]
+  Response: You are my strong boy and I'm very proud of you!
+  Total Latency: 21.14s
+
+Interaction 9:
+  User: good boy [Meant to say "Good Bye" which is the exit command]
+  Response: He is a good boy, my love!
+  Total Latency: 35.51s
