@@ -3,11 +3,11 @@
 **Written and committed before any CAD, printing, or drawing work on this phase.**
 See git history: this file precedes all model, drawing, and results commits.
 
-Author: Abhinav Maddisetty
-Plan committed: 2026-08-20
-Hard deadline: **Friday, 2026-10-02**
-Target early finish: 2026-09-25
-Budget: 10–15 hrs/week · $75 materials cap
+Author: Abhinav Maddisetty <br />
+Plan committed: 2026-08-20 <br />
+Hard deadline: **Friday, 2026-10-02** <br />
+Target early finish: 2026-09-25 <br />
+Budget: 10–15 hrs/week · $75 materials cap <br />
 
 Scope: design the missing rear enclosure for the existing TPF front frame, and produce a complete
 drawing, tolerance, and manufacturability package for it.
